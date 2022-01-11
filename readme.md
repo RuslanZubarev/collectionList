@@ -24,18 +24,33 @@ DELETE — удаляет; если указан несуществующий и
 Примеры работы со списком дел (жирным шрифтом выделен ввод пользователя)
 
 ADD buy milk
+
 Добавлено дело "buy milk"
+
 ADD learn java
+
 Добавлено дело "learn java"
+
 LIST
+
 0 - buy milk
+
 1 - learn java
+
 EDIT 0 make a cup of tea
+
 Дело "buy milk" заменено на "make a cup of tea"
+
 DELETE 1
+
 Дело "learn java" удалено
+
 LIST
+
 0 - make a cup of tea
+
 DELETE 100
+
 Дело с таким номером не существует
+
 
